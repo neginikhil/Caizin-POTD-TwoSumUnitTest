@@ -1,14 +1,14 @@
 target/
-!.mvn/wrapper/maven-wrapper.jar
+!UnitTest/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+UnitTest/.idea/modules.xml
+UnitTest/.idea/jarRepositories.xml
+UnitTest/.idea/compiler.xml
+UnitTest/.idea/libraries/
 *.iws
 *.iml
 *.ipr
