@@ -28,30 +28,30 @@ public class TestClass {
     @Test
     void testTwoPointer(){
         Main main = new Main();
-        int arr[] = {3, 5, -4, 8, 11, 1, -1, 6};
-        int res[] = main.twoPointer(arr,10);
+        int arr[] = {1,2,3};
+        int res[] = main.twoPointer(arr,3);
         Map<Integer, Integer> actualFreq = new HashMap<>();
         for (int i : res) {
             actualFreq.put(i, actualFreq.getOrDefault(i, 0) + 1);
         }
         Map<Integer,Integer> expectedFreq = new HashMap<>();
-        expectedFreq.put(11,1);
-        expectedFreq.put(-1,1);
+        expectedFreq.put(1,1);
+        expectedFreq.put(2,1);
         assertEquals(actualFreq,expectedFreq);
     }
 
     @Test
     void testUsingMap(){
         Main main = new Main();
-        int arr[] = {3, 5, -4, 8, 11, 1, -1, 6};
-        int res[] = main.usingMap(arr,10);
+        int arr[] = {2,2,3,3};
+        int res[] = main.usingMap(arr,5);
         Map<Integer, Integer> actualFreq = new HashMap<>();
         for (int i : res) {
             actualFreq.put(i, actualFreq.getOrDefault(i, 0) + 1);
         }
         Map<Integer,Integer> expectedFreq = new HashMap<>();
-        expectedFreq.put(11,1);
-        expectedFreq.put(-1,1);
+        expectedFreq.put(2,1);
+        expectedFreq.put(3,1);
         assertEquals(actualFreq,expectedFreq);
     }
 
