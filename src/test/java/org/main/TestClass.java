@@ -55,4 +55,46 @@ public class TestClass {
         assertEquals(actualFreq,expectedFreq);
     }
 
+    @Test
+    void testBruteForce_noPairsFound(){
+        Main main = new Main();
+        int arr[] = {3, 5, -4, 8};
+        int res[] = main.bruteForce(arr,10);
+        Map<Integer, Integer> actualFreq = new HashMap<>();
+        for (int i : res) {
+            actualFreq.put(i, actualFreq.getOrDefault(i, 0) + 1);
+        }
+        Map<Integer,Integer> expectedFreq = new HashMap<>();
+        expectedFreq.put(0,2);
+        assertEquals(actualFreq,expectedFreq);
+    }
+
+    @Test
+    void testTwoPointer_noPairsFound(){
+        Main main = new Main();
+        int arr[] = {3, 5, -4, 8, 11, 1};
+        int res[] = main.twoPointer(arr,10);
+        Map<Integer, Integer> actualFreq = new HashMap<>();
+        for (int i : res) {
+            actualFreq.put(i, actualFreq.getOrDefault(i, 0) + 1);
+        }
+        Map<Integer,Integer> expectedFreq = new HashMap<>();
+        expectedFreq.put(0,2);
+        assertEquals(actualFreq,expectedFreq);
+    }
+
+    @Test
+    void testUsingMap_noPairsFound(){
+        Main main = new Main();
+        int arr[] = {1, -1, 6};
+        int res[] = main.usingMap(arr,10);
+        Map<Integer, Integer> actualFreq = new HashMap<>();
+        for (int i : res) {
+            actualFreq.put(i, actualFreq.getOrDefault(i, 0) + 1);
+        }
+        Map<Integer,Integer> expectedFreq = new HashMap<>();
+        expectedFreq.put(0,2);
+        assertEquals(actualFreq,expectedFreq);
+    }
+
 }

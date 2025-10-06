@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15b774f8-1dc8-44c6-8019-f22e0dd542aa" name="Changes" comment="Unit Testing on Two Sum using JUnit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoSum/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoSum/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoSum/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoSum/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoSum/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/src/main/java/org/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/src/test/java/org/main/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/main/TestClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="15b774f8-1dc8-44c6-8019-f22e0dd542aa" name="Changes" comment="Unit Testing on Two Sum using JUnit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,19 +65,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.main" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="UnitTestTwoSum" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="UnitTestTwoSum" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
